@@ -107,10 +107,7 @@ export function MobileEmbed({ embedSrc, title }: { embedSrc: string; title: stri
 
   return (
     <div className="flex flex-col gap-3 w-full">
-      <div className="flex items-center justify-between">
-        <p className="text-xs text-white/40 font-medium uppercase tracking-wide">
-          Interactive Demo
-        </p>
+      <div className="flex items-center justify-end">
         <button
           onClick={() => setKey((k) => k + 1)}
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/50 hover:text-white/90 transition-all duration-200 cursor-pointer"
